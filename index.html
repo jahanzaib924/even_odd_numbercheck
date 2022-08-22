@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <p> Enter Number <input id="enter" type="number" > <br>
+    <button onclick="check()">Submiut</button></p>
+    <p id="resPara" style="display:none;">It is an <span id="res"></span> Number</p>
+<script>
+    var num, temp;
+function check()
+{
+  num = parseInt(document.getElementById("enter").value);
+  if(enter)
+  {
+    temp = document.getElementById("resPara");
+    temp.style.display = "block";
+    if(enter%2==0)
+      document.getElementById("res").innerHTML = "Even";
+    else
+      document.getElementById("res").innerHTML = "Odd";
+  }
+}
+</script>
+    
+</script>
+</html>
